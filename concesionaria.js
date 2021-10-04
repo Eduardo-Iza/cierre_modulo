@@ -11,9 +11,7 @@ const concesionaria = {
 
     buscarAuto: function(dato){
         let resultado = autos.find( array => {
-          //  console.log(dato);
-        return dato == array.patente});
-        //console.log(resultado);
+            return dato == array.patente});
         if (resultado == undefined){
             resultado = null
         };
